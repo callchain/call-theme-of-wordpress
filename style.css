@@ -1,0 +1,409 @@
+.middleimg_div{
+	width:100%;
+	padding:14rem 0;
+	background:url('images/app_bg.jpg') center no-repeat; 
+	position: relative;
+}
+.videosbg{
+    width:100%;
+    background:url('images/videobg.jpg') center no-repeat; 
+    background-size:100%;
+    background-position:0 0px;
+}
+*{
+	font-family: 'Montserrat',Helvetica,Arial,Lucida,Verdana,Geneva,sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+@media screen and (min-width: 1200px){
+
+	
+	.notive_box{
+		height:15rem;
+	}
+	
+	.wallet_box{
+		padding:6rem 0;
+	}
+	.faq-middle{
+		padding:1rem 20%;
+	}
+	.faq-banner{
+		padding:0;
+	}
+	.faq-banner img{
+		width:100%;
+
+	}
+	.question-one{
+		margin-top:2rem;
+	}
+	.question-one div{
+		margin-top:1rem;
+	}
+	
+	.faq-middle h1{
+		font-size:2.2rem;
+    }
+    .carousel{
+        height:100%;
+    }
+    .carousel-inner{
+        height:100%;
+    }
+    .item img{
+        width:100%!important;
+        height:100%!important;
+    }
+    .listsa p{
+        font-size:1.5rem;
+    }
+    .hot_list li{
+        list-style:none;
+        width:340px;
+        display:flex;
+        margin:0;
+        padding:0;
+        margin-top:1rem;
+        border-bottom:1px solid #efefef;
+    }
+    .hot_list li p:nth-child(1){
+        width: 120px;
+        height: 90px;
+        border-radius:5px;
+        overflow: hidden;
+    }
+    .hot_list li p:nth-child(1) img{
+        width:100%;
+        height:100%;
+        border-radius:5px;
+    }
+    .hot_list li p:nth-child(2){
+        width:210px;
+        padding-left:10px;
+    }
+    .right_hot{
+        position:relative;
+    }
+    .right_hot span:nth-child(1){
+        display:block;
+        font-size:14px;
+        color:#3c3c3c;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    .right_hot span:nth-child(2){
+        position:absolute;
+        bottom:0;
+        font-size:12px;
+        color:#999;
+    }
+    .shares{
+        position: fixed;
+        left: 3%;
+        top: 50%;
+        text-align: right;
+        font-size:16px;
+        color:#666;
+    }
+    .download ul{
+        margin-top:80px;
+    }
+    .download p:nth-child(3){
+        margin-top:30px;
+    }
+	
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	
+
+	.phpneFont{
+		position: absolute;
+		left: 40%;
+		font-size: 1.5rem;
+		color: #fff;
+	}
+	.notive_box{
+		height:15rem;
+	}
+	
+	.wallet_box{
+		padding:6rem 0;
+	}
+	.faq-middle{
+		padding:1rem 20%;
+	}
+	.faq-banner{
+		padding:0;
+	}
+	.faq-banner img{
+		width:100%;
+
+	}
+	/*.question-one{
+		margin-top:2rem;
+	}*/
+	.question-one div{
+		margin-top:1rem;
+	}
+	
+	.faq-middle h1{
+		font-size:2.2rem;
+	}
+    .carousel{
+        height:100%;
+    }
+    .carousel-inner{
+        height:100%;
+    }
+    .item img{
+        width:100%!important;
+        height:100%!important;
+    }
+    .listsa p{
+        font-size:1.5rem;
+    }
+    .hot_list li{
+        list-style:none;
+        width:70%;
+        display:flex;
+        margin-top:1rem;
+        border-bottom:1px solid #efefef;
+    }
+    .hot_list li p:nth-child(1){
+        width: 120px;
+        height: 90px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .hot_list li p:nth-child(1) img{
+        width:100%;
+        height:100%;
+        border-radius:5px;
+
+    }
+    .hot_list li p:nth-child(2){
+        width:130px;
+        padding-left:10px;
+    }
+    .right_hot{
+        position:relative;
+    }
+    .right_hot span:nth-child(1){
+        display:block;
+        font-size:14px;
+        color:#3c3c3c;
+    }
+    .right_hot span:nth-child(2){
+        position:absolute;
+        bottom:0;
+        font-size:12px;
+        color:#999;
+    }
+    .shares{
+        position: fixed;
+        left: 1%;
+        top: 50%;
+        text-align: right;
+        font-size:16px;
+        color:#666;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	
+	.picContent>b>a{
+		font-size:4rem;
+		color:#fff;
+		text-decoration: #fff;
+	}
+	.phpneFont{
+		position: absolute;
+		left: 30%;
+		font-size: 1.5rem;
+		color: #fff;
+	}	
+	
+	.wallet_box{
+		padding:6rem 0;
+	}
+	.faq-middle{
+		padding:1rem 20%;
+	}
+	.faq-banner{
+		padding:0;
+	}
+	.faq-banner img{
+		width:100%;
+
+	}
+	.question-one{
+		margin-top:2rem;
+	}
+	.question-one div{
+		margin-top:1rem;
+	}
+	
+	.faq-middle h1{
+		font-size:2.2rem;
+	}
+    .carousel{
+        height:100%;
+    }
+    .carousel-inner{
+        height:100%;
+    }
+    .item img{
+        width:100%!important;
+        height:100%!important;
+    }
+    .listsa p{
+        font-size:1.5rem;
+    }
+    .hot_list li{
+        list-style:none;
+        width:70%;
+        display:flex;
+        margin-top:1rem;
+        border-bottom:1px solid #efefef;
+    }
+    .hot_list li p:nth-child(1){
+        width: 120px;
+        height: 90px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .hot_list li p:nth-child(1) img{
+        width:100%;
+        height:100%;
+        border-radius:5px;
+    }
+    .hot_list li p:nth-child(2){
+        width:130px;
+        padding-left:10px;
+    }
+    .right_hot{
+        position:relative;
+    }
+    .right_hot span:nth-child(1){
+        display:block;
+        font-size:14px;
+        color:#3c3c3c;
+    }
+    .right_hot span:nth-child(2){
+        position:absolute;
+        bottom:0;
+        font-size:12px;
+        color:#999;
+    }
+    .shares{
+        position: fixed;
+        left: 1%;
+        top: 50%;
+        text-align: right;
+        font-size:16px;
+        color:#666;
+    }
+}
+@media screen and (max-width: 768px){
+	
+	.phpneFont{
+		position: absolute;
+		left: 5%;
+		font-size: 1.5rem;
+		color: #fff;
+	}
+	.notive_box{
+		height:10rem;
+	}
+	.left_pic{
+		height:100%;
+	}
+	
+	.faq-middle{
+		padding:1rem 0.5rem;
+	}
+	.faq-banner{
+		padding:0;
+	}
+	.faq-banner img{
+		width:100%;
+
+	}
+	.question-one{
+		margin-top:2rem;
+	}
+	.question-one div{
+		margin-top:1rem;
+	}
+	
+	.faq-middle h1{
+		font-size:2.2rem;
+	}
+
+
+    .carousel{
+        height:100%;
+    }
+    .carousel-inner{
+        height:100%;
+    }
+    .item img{
+        width:100%!important;
+        height:100%!important;
+    }
+	.banners_div{
+		padding:0;
+	}
+	.banner_left{
+		padding:0;
+	}
+	.titles{
+		border-bottom:1px solid #ccc;
+		margin-bottom:2rem;
+	}
+	.hot_list li{
+		display: flex;
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        margin-top: 10px;
+	}
+	.hot_list li p:nth-child(1){
+        height: 75px;
+        width: 100px;
+        border-radius: 5px;
+        overflow: hidden;
+	}
+	.hot_list li p:nth-child(1) img{
+        width:100%;
+        height:100%;
+        border-radius:5px;
+	}
+	.hot_list li p:nth-child(2){
+		flex:7;
+		padding-left:1rem;
+		position: relative;
+	}
+	.hot_list li p:nth-child(2) span:nth-child(1){
+		display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        font-size:1.8rem;
+        line-height:2.2rem;
+	}
+	.hot_list li p:nth-child(2) span:nth-child(2){
+		position: absolute;
+		bottom:0;
+        color:#999;
+        font-size:1.5rem;
+	}
+	.shares>span{
+        display:none;
+    }
+    
+}
+
+
+
